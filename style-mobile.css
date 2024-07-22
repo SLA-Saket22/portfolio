@@ -1,0 +1,76 @@
+@media screen and (max-width: 860px) {
+    .nav-bar-2 .bars i{
+        display: block;
+    }
+    .nav-bar-2 .bars .fa-xmark{
+        display: none;
+    }
+    .nav-bar-2 .nav-list ul{
+        height: 100%;
+        width: 250px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 16px;
+        flex-direction: column;
+        gap: 0;
+    }
+    .nav-list{
+        display: none;
+    }
+    .nav-bar-2 .nav-list ul li{
+        text-decoration: none;
+        font-size: 20px;
+        color: #818181;
+        display: block;
+    }
+
+}
+@media screen and (max-width: 750px) {
+    .hero{
+       flex-direction: column-reverse;
+       height: auto;
+       padding: 50px 0;
+       gap: 20px;
+    }
+    .hero .hero-sec-1 {
+        width: 100%;
+    }
+    .hero .hero-sec-1 {
+        justify-content: center;
+        text-align: center;
+    }
+    .hero .hero-sec-1 .sec-2 {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .hero .hero-sec-1 .sec-2 div{
+        animation: none;
+        border: none;
+    }
+    .hero .hero-social,.hero-btns{
+        justify-content: center;
+    }
+    .skills-2{
+        display: grid;
+        flex-direction:column;
+        gap: 30px;
+    }
+    .skills-2 .sub .skills-sub{
+        justify-self: center;
+    }
+    .skills-2 .sub-2{
+        grid-template-columns: 150px 150px;
+        grid-template-rows: 150px 150px;
+        gap: 40px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .nav-bar-2 .nav-btn {
+        display: none;
+    }
+}
