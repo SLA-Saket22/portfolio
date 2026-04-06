@@ -45,50 +45,7 @@ const TECH = [
   { name: "Node.js", icon: "fab fa-node-js", accent: "#68a063" },
 ];
 
-const WORKS = [
-  {
-    title: "Pg Finder",
-    sub: "Property search application",
-    url: "https://pg-website-frontend-ten.vercel.app/",
-    tag: "Full Stack (ReactJs)",
-    glyph: "🏘️",
-  },
-  {
-    title: "Chat App",
-    sub: "Real-time messaging",
-    url: "https://chat-app-7xb1.vercel.app/",
-    tag: "Full Stack (ReactJs)",
-    glyph: "💬",
-  },
-  {
-    title: "E-Commerce Clothes",
-    sub: "Online Shoping Platform",
-    url: "https://threadra-frontend.vercel.app/",
-    tag: "Full Stack (ReactJs)",
-    glyph: "👕",
-  },
-  {
-    title: "E-Commerce General",
-    sub: "Online Shoping Platform",
-    url: "#",
-    tag: "Full Stack (ReactJs)",
-    glyph: "🛒",
-  },
-  {
-    title: "Digital Marketing",
-    sub: "Full-stack web platform",
-    url: "https://digital-market-indol.vercel.app/",
-    tag: "Frontended",
-    glyph: "📈",
-  },
-  {
-    title: "Login Page",
-    sub: "Clean UI / Auth flow",
-    url: "https://login-phi-liard.vercel.app/",
-    tag: "UI DESIGN",
-    glyph: "🔐",
-  },
-];
+
 
 const SOCIALS = [
   {
@@ -1203,7 +1160,7 @@ export default function HomePage() {
       </section>
 
       {/* ═══════════════════════════════ WORKS ═══════════════════════════ */}
-      <Project WORKS={WORKS} SectionLabel={SectionLabel} SectionTitle={SectionTitle} Divider={Divider}></Project>
+      <Project  SectionLabel={SectionLabel} SectionTitle={SectionTitle} Divider={Divider}></Project>
 
       {/* ═══════════════════════════════ CONTACT / FOOTER ════════════════ */}
       <section

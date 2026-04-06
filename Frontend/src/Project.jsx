@@ -1,7 +1,7 @@
 // pages/Home.jsx
 import { useState, useEffect } from "react";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = import.meta.env.VITE_API_URL;
 
 const skeletonStyle = {
   background: "linear-gradient(90deg, rgba(255,255,255,.04) 25%, rgba(255,255,255,.08) 50%, rgba(255,255,255,.04) 75%)",

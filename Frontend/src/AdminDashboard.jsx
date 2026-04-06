@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback, createContext, useContext } from "react";
 
 // ─── API CONFIG ───────────────────────────────────────────────────
-const API = "http://localhost:5000/api";
+const API = import.meta.env.VITE_API_URL;
 
 const api = async (endpoint, options = {}) => {
   const token = localStorage.getItem("admin_token");
