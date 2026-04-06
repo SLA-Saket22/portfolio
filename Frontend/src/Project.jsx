@@ -146,12 +146,29 @@ function ProjectCard({ project, index }) {
         position: "relative",
         overflow: "hidden",
       }}>
-        <div style={{
-          position: "absolute",
-          inset: 0,
-          backgroundImage: `url(${project.image})`,
-          backgroundSize: "24px 24px",
-        }} />
+        {/* 🔥 Background Image */}
+  <div
+    style={{
+      position: "absolute",
+      inset: 0,
+      backgroundImage: `url(${project.image})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      opacity: 0.4, // 👈 control visibility
+    }}
+  />
+
+  {/* Grid Overlay */}
+  <div
+    style={{
+      position: "absolute",
+      inset: 0,
+      backgroundImage:
+        "linear-gradient(rgba(57,255,20,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(57,255,20,.04) 1px,transparent 1px)",
+      backgroundSize: "24px 24px",
+    }}
+  />
+
         {/* Index badge */}
         <div style={{
           position: "absolute",
