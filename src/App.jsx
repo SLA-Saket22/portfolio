@@ -28,26 +28,28 @@ const TailwindLoader = () => {
 const NAV = ["Home", "About", "Skills", "Work", "Contact"];
 
 const SKILLS = [
+  { name: "React",       icon: "fab fa-react",    pct: 80, color: "#38bdf8" },
   { name: "HTML5",      icon: "fab fa-html5",    pct: 90, color: "#f97316" },
   { name: "CSS3",       icon: "fab fa-css3-alt", pct: 80, color: "#38bdf8" },
   { name: "JavaScript", icon: "fab fa-js",        pct: 50, color: "#facc15" },
   { name: "Python",     icon: "fab fa-python",   pct: 60, color: "#34d399" },
-   { name: "React",       icon: "fab fa-react",    pct: 80, color: "#38bdf8" },
+   
 ];
 
 const TECH = [
-  { name: "Java",     icon: "fas fa-code",     accent: "#00f5ff" },
+  { name: "Java (DSA)",     icon: "fas fa-code",     accent: "#00f5ff" },
   { name: "Express",   icon: "fab fa-react",    accent: "#61dafb" },
   { name: "MongoDB", icon: "fas fa-database", accent: "#39ff14" },
   { name: "Node.js", icon: "fab fa-node-js",  accent: "#68a063" },
 ];
 
 const WORKS = [
-  { title: "Pg Finder",          sub: "Property search application",    url: "https://pg-website-frontend-ten.vercel.app/",     tag: "WEB APP", glyph: "💬" },
-  { title: "Chat App",          sub: "Real-time messaging",    url: "https://chat-app-7xb1.vercel.app/",     tag: "WEB APP", glyph: "💬" },
-  { title: "Digital Marketing", sub: "Full-stack web platform", url: "https://digital-market-indol.vercel.app/", tag: "WEB APP", glyph: "📈" },
+  { title: "Pg Finder",          sub: "Property search application",    url: "https://pg-website-frontend-ten.vercel.app/",     tag: "Full Stack (ReactJs)", glyph: "🏘️" },
+  { title: "Chat App",          sub: "Real-time messaging",    url: "https://chat-app-7xb1.vercel.app/",     tag: "Full Stack (ReactJs)", glyph: "💬" },
+  { title: "E-Commerce Clothes",          sub: "Online Shoping Platform",    url: "#",     tag: "Full Stack (ReactJs)", glyph: "👕" },
+  { title: "E-Commerce General",          sub: "Online Shoping Platform",    url: "#",     tag: "Full Stack (ReactJs)", glyph: "🛒" },
+  { title: "Digital Marketing", sub: "Full-stack web platform", url: "https://digital-market-indol.vercel.app/", tag: "Frontended", glyph: "📈" },
   { title: "Login Page",        sub: "Clean UI / Auth flow",   url: "https://login-phi-liard.vercel.app/",     tag: "UI DESIGN", glyph: "🔐" },
-  
 ];
 
 const SOCIALS = [
