@@ -149,8 +149,7 @@ function ProjectCard({ project, index }) {
         <div style={{
           position: "absolute",
           inset: 0,
-          backgroundImage:
-            "linear-gradient(rgba(57,255,20,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(57,255,20,.04) 1px,transparent 1px)",
+          backgroundImage: `url(${project.image})`,
           backgroundSize: "24px 24px",
         }} />
         {/* Index badge */}
